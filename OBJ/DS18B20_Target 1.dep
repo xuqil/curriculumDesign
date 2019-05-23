@@ -1,5 +1,5 @@
 Dependencies for Project 'DS18B20', Target 'Target 1': (DO NOT MODIFY !)
-F (.\main.c)(0x5CE6C8DB)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I "F:\单片机课程设计\DS18B20 - 副本\USER\RTE"-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+F (.\main.c)(0x5CE6D20C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I F:\单片机课程设计\CurriculumDesign\USER\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
 I (..\HARDWARE\LED\led.h)(0x5BACB744)
 I (..\SYSTEM\sys\sys.h)(0x5BACB745)
 I (..\USER\stm32f10x.h)(0x5BACB745)
@@ -39,7 +39,7 @@ I (..\HARDWARE\DS18B20\ds18b20.h)(0x5CE6C934)
 I (..\HARDWARE\KEY\key.h)(0x5CE6C934)
 I (..\HARDWARE\SPI\spi.h)(0x5BACB741)
 I (..\HARDWARE\FLASH\flash.h)(0x5BACB741)
-F (.\stm32f10x_it.c)(0x5BACB745)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I "F:\单片机课程设计\DS18B20 - 副本\USER\RTE"-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
+F (.\stm32f10x_it.c)(0x5BACB745)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I F:\单片机课程设计\CurriculumDesign\USER\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
 I (stm32f10x_it.h)(0x5BACB745)
 I (stm32f10x.h)(0x5BACB745)
 I (..\CORE\core_cm3.h)(0x5BACB745)
@@ -70,7 +70,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5BACB744)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5BACB745)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5BACB745)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5BACB744)
-F (.\system_stm32f10x.c)(0x5BACB745)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I "F:\单片机课程设计\DS18B20 - 副本\USER\RTE"-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\system_stm32f10x.o --omf_browse ..\obj\system_stm32f10x.crf --depend ..\obj\system_stm32f10x.d)
+F (.\system_stm32f10x.c)(0x5BACB745)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I F:\单片机课程设计\CurriculumDesign\USER\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\system_stm32f10x.o --omf_browse ..\obj\system_stm32f10x.crf --depend ..\obj\system_stm32f10x.d)
 I (stm32f10x.h)(0x5BACB745)
 I (..\CORE\core_cm3.h)(0x5BACB745)
 I (e:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -100,7 +100,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5BACB744)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5BACB745)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5BACB745)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5BACB744)
-F (..\HARDWARE\LED\led.c)(0x5BACB744)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I "F:\单片机课程设计\DS18B20 - 副本\USER\RTE"-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+F (..\HARDWARE\LED\led.c)(0x5BACB744)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I F:\单片机课程设计\CurriculumDesign\USER\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
 I (..\HARDWARE\LED\led.h)(0x5BACB744)
 I (..\SYSTEM\sys\sys.h)(0x5BACB745)
 I (..\USER\stm32f10x.h)(0x5BACB745)
@@ -131,7 +131,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5BACB744)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5BACB745)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5BACB745)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5BACB744)
-F (..\HARDWARE\LCD\lcd.c)(0x5BACB744)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I "F:\单片机课程设计\DS18B20 - 副本\USER\RTE"-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\lcd.o --omf_browse ..\obj\lcd.crf --depend ..\obj\lcd.d)
+F (..\HARDWARE\LCD\lcd.c)(0x5BACB744)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I F:\单片机课程设计\CurriculumDesign\USER\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\lcd.o --omf_browse ..\obj\lcd.crf --depend ..\obj\lcd.d)
 I (..\HARDWARE\LCD\lcd.h)(0x5BACB744)
 I (..\SYSTEM\sys\sys.h)(0x5BACB745)
 I (..\USER\stm32f10x.h)(0x5BACB745)
@@ -167,7 +167,7 @@ I (..\HARDWARE\LCD\font.h)(0x5BACB744)
 I (..\SYSTEM\usart\usart.h)(0x5BACB745)
 I (e:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (..\SYSTEM\delay\delay.h)(0x5BACB745)
-F (..\HARDWARE\DS18B20\ds18b20.c)(0x5CE6C933)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I "F:\单片机课程设计\DS18B20 - 副本\USER\RTE"-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\ds18b20.o --omf_browse ..\obj\ds18b20.crf --depend ..\obj\ds18b20.d)
+F (..\HARDWARE\DS18B20\ds18b20.c)(0x5CE6C933)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I F:\单片机课程设计\CurriculumDesign\USER\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\ds18b20.o --omf_browse ..\obj\ds18b20.crf --depend ..\obj\ds18b20.d)
 I (..\HARDWARE\DS18B20\ds18b20.h)(0x5CE6C934)
 I (..\SYSTEM\sys\sys.h)(0x5BACB745)
 I (..\USER\stm32f10x.h)(0x5BACB745)
@@ -199,7 +199,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5BACB745)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5BACB745)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5BACB744)
 I (..\SYSTEM\delay\delay.h)(0x5BACB745)
-F (..\HARDWARE\FLASH\flash.c)(0x5BACB741)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I "F:\单片机课程设计\DS18B20 - 副本\USER\RTE"-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\flash.o --omf_browse ..\obj\flash.crf --depend ..\obj\flash.d)
+F (..\HARDWARE\FLASH\flash.c)(0x5BACB741)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I F:\单片机课程设计\CurriculumDesign\USER\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\flash.o --omf_browse ..\obj\flash.crf --depend ..\obj\flash.d)
 I (..\HARDWARE\FLASH\flash.h)(0x5BACB741)
 I (..\SYSTEM\sys\sys.h)(0x5BACB745)
 I (..\USER\stm32f10x.h)(0x5BACB745)
@@ -232,7 +232,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5BACB745)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5BACB744)
 I (..\HARDWARE\SPI\spi.h)(0x5BACB741)
 I (..\SYSTEM\delay\delay.h)(0x5BACB745)
-F (..\HARDWARE\KEY\key.c)(0x5CE6C934)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I "F:\单片机课程设计\DS18B20 - 副本\USER\RTE"-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\key.o --omf_browse ..\obj\key.crf --depend ..\obj\key.d)
+F (..\HARDWARE\KEY\key.c)(0x5CE6C934)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I F:\单片机课程设计\CurriculumDesign\USER\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\key.o --omf_browse ..\obj\key.crf --depend ..\obj\key.d)
 I (..\HARDWARE\KEY\key.h)(0x5CE6C934)
 I (..\SYSTEM\sys\sys.h)(0x5BACB745)
 I (..\USER\stm32f10x.h)(0x5BACB745)
@@ -264,7 +264,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5BACB745)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5BACB745)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5BACB744)
 I (..\SYSTEM\delay\delay.h)(0x5BACB745)
-F (..\HARDWARE\SPI\spi.c)(0x5BACB741)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I "F:\单片机课程设计\DS18B20 - 副本\USER\RTE"-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\spi.o --omf_browse ..\obj\spi.crf --depend ..\obj\spi.d)
+F (..\HARDWARE\SPI\spi.c)(0x5BACB741)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I F:\单片机课程设计\CurriculumDesign\USER\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\spi.o --omf_browse ..\obj\spi.crf --depend ..\obj\spi.d)
 I (..\HARDWARE\SPI\spi.h)(0x5BACB741)
 I (..\SYSTEM\sys\sys.h)(0x5BACB745)
 I (..\USER\stm32f10x.h)(0x5BACB745)
@@ -295,7 +295,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5BACB744)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5BACB745)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5BACB745)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5BACB744)
-F (..\SYSTEM\delay\delay.c)(0x5BACB745)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I "F:\单片机课程设计\DS18B20 - 副本\USER\RTE"-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+F (..\SYSTEM\delay\delay.c)(0x5BACB745)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I F:\单片机课程设计\CurriculumDesign\USER\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
 I (..\SYSTEM\delay\delay.h)(0x5BACB745)
 I (..\SYSTEM\sys\sys.h)(0x5BACB745)
 I (..\USER\stm32f10x.h)(0x5BACB745)
@@ -326,7 +326,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5BACB744)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5BACB745)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5BACB745)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5BACB744)
-F (..\SYSTEM\sys\sys.c)(0x5BACB745)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I "F:\单片机课程设计\DS18B20 - 副本\USER\RTE"-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+F (..\SYSTEM\sys\sys.c)(0x5BACB745)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I F:\单片机课程设计\CurriculumDesign\USER\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
 I (..\SYSTEM\sys\sys.h)(0x5BACB745)
 I (..\USER\stm32f10x.h)(0x5BACB745)
 I (..\CORE\core_cm3.h)(0x5BACB745)
@@ -356,7 +356,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5BACB744)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5BACB745)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5BACB745)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5BACB744)
-F (..\SYSTEM\usart\usart.c)(0x5CE6C934)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I "F:\单片机课程设计\DS18B20 - 副本\USER\RTE"-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+F (..\SYSTEM\usart\usart.c)(0x5CE6C934)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I F:\单片机课程设计\CurriculumDesign\USER\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
 I (..\SYSTEM\sys\sys.h)(0x5BACB745)
 I (..\USER\stm32f10x.h)(0x5BACB745)
 I (..\CORE\core_cm3.h)(0x5BACB745)
@@ -388,10 +388,10 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5BACB745)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5BACB744)
 I (..\SYSTEM\usart\usart.h)(0x5BACB745)
 I (e:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-F (..\CORE\core_cm3.c)(0x5BACB745)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I "F:\单片机课程设计\DS18B20 - 副本\USER\RTE"-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\core_cm3.o --omf_browse ..\obj\core_cm3.crf --depend ..\obj\core_cm3.d)
+F (..\CORE\core_cm3.c)(0x5BACB745)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I F:\单片机课程设计\CurriculumDesign\USER\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\core_cm3.o --omf_browse ..\obj\core_cm3.crf --depend ..\obj\core_cm3.d)
 I (e:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-F (..\CORE\startup_stm32f10x_hd.s)(0x5BACB745)(--cpu Cortex-M3 -g --apcs=interwork -I "F:\单片机课程设计\DS18B20 - 副本\USER\RTE"-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_HD SETA 1"--list .\startup_stm32f10x_hd.lst --xref -o ..\obj\startup_stm32f10x_hd.o --depend ..\obj\startup_stm32f10x_hd.d)
-F (..\STM32F10x_FWLib\src\stm32f10x_gpio.c)(0x5BACB745)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I "F:\单片机课程设计\DS18B20 - 副本\USER\RTE"-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_gpio.o --omf_browse ..\obj\stm32f10x_gpio.crf --depend ..\obj\stm32f10x_gpio.d)
+F (..\CORE\startup_stm32f10x_hd.s)(0x5BACB745)(--cpu Cortex-M3 -g --apcs=interwork -I F:\单片机课程设计\CurriculumDesign\USER\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_HD SETA 1"--list .\startup_stm32f10x_hd.lst --xref -o ..\obj\startup_stm32f10x_hd.o --depend ..\obj\startup_stm32f10x_hd.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_gpio.c)(0x5BACB745)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I F:\单片机课程设计\CurriculumDesign\USER\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_gpio.o --omf_browse ..\obj\stm32f10x_gpio.crf --depend ..\obj\stm32f10x_gpio.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x5BACB744)
 I (..\USER\stm32f10x.h)(0x5BACB745)
 I (..\CORE\core_cm3.h)(0x5BACB745)
@@ -420,7 +420,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5BACB744)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5BACB745)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5BACB745)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5BACB744)
-F (..\STM32F10x_FWLib\src\stm32f10x_rcc.c)(0x5BACB745)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I "F:\单片机课程设计\DS18B20 - 副本\USER\RTE"-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_rcc.o --omf_browse ..\obj\stm32f10x_rcc.crf --depend ..\obj\stm32f10x_rcc.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_rcc.c)(0x5BACB745)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I F:\单片机课程设计\CurriculumDesign\USER\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_rcc.o --omf_browse ..\obj\stm32f10x_rcc.crf --depend ..\obj\stm32f10x_rcc.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5BACB744)
 I (..\USER\stm32f10x.h)(0x5BACB745)
 I (..\CORE\core_cm3.h)(0x5BACB745)
@@ -449,7 +449,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5BACB744)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5BACB745)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5BACB745)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5BACB744)
-F (..\STM32F10x_FWLib\src\stm32f10x_usart.c)(0x5BACB745)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I "F:\单片机课程设计\DS18B20 - 副本\USER\RTE"-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_usart.o --omf_browse ..\obj\stm32f10x_usart.crf --depend ..\obj\stm32f10x_usart.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_usart.c)(0x5BACB745)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I F:\单片机课程设计\CurriculumDesign\USER\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_usart.o --omf_browse ..\obj\stm32f10x_usart.crf --depend ..\obj\stm32f10x_usart.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5BACB745)
 I (..\USER\stm32f10x.h)(0x5BACB745)
 I (..\CORE\core_cm3.h)(0x5BACB745)
@@ -478,7 +478,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5BACB744)
 I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5BACB744)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5BACB745)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5BACB744)
-F (..\STM32F10x_FWLib\src\misc.c)(0x5BACB745)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I "F:\单片机课程设计\DS18B20 - 副本\USER\RTE"-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
+F (..\STM32F10x_FWLib\src\misc.c)(0x5BACB745)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I F:\单片机课程设计\CurriculumDesign\USER\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5BACB744)
 I (..\USER\stm32f10x.h)(0x5BACB745)
 I (..\CORE\core_cm3.h)(0x5BACB745)
@@ -507,7 +507,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5BACB744)
 I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5BACB744)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5BACB745)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5BACB745)
-F (..\STM32F10x_FWLib\src\stm32f10x_tim.c)(0x5BACB745)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I "F:\单片机课程设计\DS18B20 - 副本\USER\RTE"-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_tim.o --omf_browse ..\obj\stm32f10x_tim.crf --depend ..\obj\stm32f10x_tim.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_tim.c)(0x5BACB745)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I F:\单片机课程设计\CurriculumDesign\USER\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_tim.o --omf_browse ..\obj\stm32f10x_tim.crf --depend ..\obj\stm32f10x_tim.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5BACB744)
 I (..\USER\stm32f10x.h)(0x5BACB745)
 I (..\CORE\core_cm3.h)(0x5BACB745)
@@ -536,7 +536,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5BACB744)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5BACB745)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5BACB745)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5BACB744)
-F (..\STM32F10x_FWLib\src\stm32f10x_spi.c)(0x5BACB745)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I "F:\单片机课程设计\DS18B20 - 副本\USER\RTE"-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_spi.o --omf_browse ..\obj\stm32f10x_spi.crf --depend ..\obj\stm32f10x_spi.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_spi.c)(0x5BACB745)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I F:\单片机课程设计\CurriculumDesign\USER\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_spi.o --omf_browse ..\obj\stm32f10x_spi.crf --depend ..\obj\stm32f10x_spi.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5BACB744)
 I (..\USER\stm32f10x.h)(0x5BACB745)
 I (..\CORE\core_cm3.h)(0x5BACB745)
@@ -565,8 +565,8 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5BACB744)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5BACB745)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5BACB745)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5BACB744)
-F (..\README.TXT)(0x5BACB745)()
-F (..\HANDLE\handle.c)(0x5CE6BA5C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I "F:\单片机课程设计\DS18B20 - 副本\USER\RTE"-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\handle.o --omf_browse ..\obj\handle.crf --depend ..\obj\handle.d)
+F (..\README.TXT)(0x00000000)()
+F (..\HANDLE\handle.c)(0x5CE6BA5C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I F:\单片机课程设计\CurriculumDesign\USER\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\handle.o --omf_browse ..\obj\handle.crf --depend ..\obj\handle.d)
 I (..\HANDLE\handle.h)(0x5CE6BA5C)
 I (..\HARDWARE\LCD\lcd.h)(0x5BACB744)
 I (..\SYSTEM\sys\sys.h)(0x5BACB745)

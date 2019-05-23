@@ -9,18 +9,14 @@
 #include "flash.h"
 #include <stdlib.h>
 
-const u8 TEXT_Buffer[]={"MiniSTM32 SPI TEST"};
-char *text = "20";
-//#define SIZE sizeof(TEXT_Buffer)	
-#define SIZE sizeof(text)
  int main(void)
  { 
 	u8 key;
-	u8 datatemp[SIZE];
-	u32 FLASH_SIZE;
-	u8 t=0;
 	int value = 20;
 	int size = sizeof(value);
+	u8 datatemp[10];
+	u32 FLASH_SIZE;
+	u8 t=0;
   int result;	
 	char buffer[20];
 	short temperature;   
@@ -39,6 +35,7 @@ char *text = "20";
 		delay_ms(500);
 		LED0=!LED0;//DS0闪烁
 	}	
+	SPI_Flash_Read(datatemp,size-100,size);	
 	LCD_ShowString(60,190,200,16,16,"25Q64 Ready!");
 
 	FLASH_SIZE=8*1024*1024;	//FLASH 大小为8M字节
@@ -81,10 +78,15 @@ char *text = "20";
 			LCD_ShowString(60,240,200,16,16,"The Data Readed Is:  ");	//提示传送完成
 			LCD_ShowString(60,260,200,16,16,datatemp);					//显示读到的字符串
 		}
-		printf("%s\n",datatemp);
+		//printf("datatemp:  %s\n\n",datatemp);
 		result = atoi((char*)datatemp);
-		if (result == 20)
-			printf("数值：%d\n", result);
+		if (temperature/10 >= result)
+		{
+			LED1=!LED1;
+			printf("result:  %d\n\n",result);
+			printf("temperature:  %d\n\n",temperature/10);
+			delay_ms(100);
+		}
  		if(t%10==0)//每100ms读取一次
 		{									  
 			temperature=DS18B20_Get_Temp();	
@@ -96,7 +98,6 @@ char *text = "20";
 			LCD_ShowNum(60+40+8,150,temperature/10,2,16);	//显示正数部分	    
    			LCD_ShowNum(60+40+32,150,temperature%10,1,16);	//显示小数部分 		   
 		}	
-		//printf("温度：%hd\n", temperature);
 	 	delay_ms(10);
 		t++;
 		if(t==20)
