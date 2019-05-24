@@ -39,3 +39,4 @@
 ..\obj\main.o: ..\HARDWARE\KEY\key.h
 ..\obj\main.o: ..\HARDWARE\SPI\spi.h
 ..\obj\main.o: ..\HARDWARE\FLASH\flash.h
+..\obj\main.o: e:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

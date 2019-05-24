@@ -1,5 +1,5 @@
 Dependencies for Project 'DS18B20', Target 'Target 1': (DO NOT MODIFY !)
-F (.\main.c)(0x5CE6D20C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I F:\单片机课程设计\CurriculumDesign\USER\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+F (.\main.c)(0x5CE7BAF2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I F:\单片机课程设计\CurriculumDesign\USER\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
 I (..\HARDWARE\LED\led.h)(0x5BACB744)
 I (..\SYSTEM\sys\sys.h)(0x5BACB745)
 I (..\USER\stm32f10x.h)(0x5BACB745)
@@ -39,6 +39,7 @@ I (..\HARDWARE\DS18B20\ds18b20.h)(0x5CE6C934)
 I (..\HARDWARE\KEY\key.h)(0x5CE6C934)
 I (..\HARDWARE\SPI\spi.h)(0x5BACB741)
 I (..\HARDWARE\FLASH\flash.h)(0x5BACB741)
+I (e:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
 F (.\stm32f10x_it.c)(0x5BACB745)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\DS18B20 -I..\HARDWARE\FLASH -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HANDLE-I F:\单片机课程设计\CurriculumDesign\USER\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
 I (stm32f10x_it.h)(0x5BACB745)
 I (stm32f10x.h)(0x5BACB745)

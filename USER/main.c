@@ -8,12 +8,15 @@
 #include "spi.h"
 #include "flash.h"
 #include <stdlib.h>
+#include <string.h>
 
  int main(void)
  { 
 	u8 key;
 	int value = 20;
 	int size = sizeof(value);
+	int flag_write = 0;
+	int flag_switch = 0;
 	u8 datatemp[10];
 	u32 FLASH_SIZE;
 	u8 t=0;
@@ -36,7 +39,9 @@
 		LED0=!LED0;//DS0闪烁
 	}	
 	SPI_Flash_Read(datatemp,size-100,size);	
+	value = atoi((char*)datatemp);
 	LCD_ShowString(60,190,200,16,16,"25Q64 Ready!");
+	///SPI_Flash_Read(,size-100,size);	
 
 	FLASH_SIZE=8*1024*1024;	//FLASH 大小为8M字节
   POINT_COLOR=BLUE;		//设置字体为蓝色	 
@@ -62,22 +67,36 @@
 			value ++;
 			size = sizeof(value);
 			sprintf(buffer,"%d",value); 
+			flag_write = 1;
+		}
+		if(key==KEY0_PRES)	//KEY0 按下,读取字符串并显示
+		{
+ 			value --;
+			size = sizeof(value);
+			sprintf(buffer,"%d",value); 
+			flag_write = 1;
 		}
 		LCD_ShowxNum(60,290,value,16,16,0);
-		if(key==WKUP_PRES)	//WK_UP 按下,写入W25Q64
+		
+		if((key==WKUP_PRES)&&flag_write)	//WK_UP 按下,写入W25Q64
 		{
 			LCD_Fill(0,220,239,319,WHITE);//清除半屏    
  			LCD_ShowString(60,240,200,16,16,"Start Write W25Q64....");
 			SPI_Flash_Write((u8*)buffer,size-100,size);		//从倒数第100个地址处开始,写入SIZE长度的数据
 			LCD_ShowString(60,240,200,16,16,"W25Q64 Write Finished!");	//提示传送完成
+			flag_switch = 1;
+			memset(buffer,'\0',sizeof(buffer)); //清空数组   
 		}
-		if(key==KEY0_PRES)	//KEY0 按下,读取字符串并显示
+		if(flag_write&&flag_switch)
 		{
- 			LCD_ShowString(60,220,200,16,16,"Start Read W25Q64.... ");
+			LCD_ShowString(60,220,200,16,16,"Start Read W25Q64.... ");
 			SPI_Flash_Read(datatemp,size-100,size);				//从倒数第100个地址处开始,读出SIZE个字节
 			LCD_ShowString(60,240,200,16,16,"The Data Readed Is:  ");	//提示传送完成
 			LCD_ShowString(60,260,200,16,16,datatemp);					//显示读到的字符串
+			flag_write = 0;
+			flag_switch = 0;
 		}
+
 		//printf("datatemp:  %s\n\n",datatemp);
 		result = atoi((char*)datatemp);
 		if (temperature/10 >= result)
